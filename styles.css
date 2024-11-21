@@ -1,0 +1,68 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('KBC1.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.form-container {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    height: 100%;
+    text-align: center;
+}
+
+.logo img {
+    width: 70px;
+    margin-bottom: 5px;
+}
+
+.registration-form h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ffd700; /* Golden color */
+}
+
+.registration-form label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+.registration-form input, 
+.registration-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.registration-form button {
+    background-color: #ffd700; /* Golden color */
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.registration-form button:hover {
+    background-color: #e600a1;
+}
